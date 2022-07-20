@@ -68,12 +68,6 @@ p{
     height: 145px;
     margin-bottom: 21px;
   }
-/* .blog button{
-    padding: 10px;
-    font-size: 20px;
-    visibility: hidden;
-  
-} */
   .blog a {
     text-decoration: none;
     color: black;
@@ -146,13 +140,6 @@ p{
     grid-column-gap: 10px;
     justify-content: center;
   }
-    .blog button{
-      padding: 10px;
-      font-size: 20px;
-      visibility: hidden;
-    
-  }
-  }
   .footer{
     height:770px;
   }
@@ -160,7 +147,7 @@ p{
     display: block;
     text-align: center;
   }
-
+}
 
 /* Start of Media Queries for Minimum Width: 651px & Maximum Width:900px;*/
 
@@ -202,10 +189,6 @@ p{
         grid-template-columns: repeat(2,300px);
         margin-top:30px;
       }
-      .blog button{
-        padding: 10px;
-        font-size: 20px;
-      background-color: red;
-    }
+    
 }
 /* End of Media Queries for Minimum Width: 651px & Maximum Width:900px;*/
